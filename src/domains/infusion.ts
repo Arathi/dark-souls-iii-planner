@@ -1,0 +1,18 @@
+export enum Infusion {
+  Normal,
+  Refined,
+  Raw,
+  Fire,
+  Heavy,
+  Sharp,
+  Poison,
+  Crystal,
+  Blessed,
+  Deep,
+  Dark,
+  Blood,
+  Hollow,
+  Lightning,
+  Simple,
+  Chaos,
+}

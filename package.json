@@ -1,0 +1,27 @@
+{
+  "name": "dark-souls-iii-planner",
+  "version": "0.0.0-dev",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "rsbuild build",
+    "dev": "rsbuild",
+    "preview": "rsbuild preview"
+  },
+  "dependencies": {
+    "antd": "^6.6.3",
+    "react": "^19.2.8",
+    "react-dom": "^19.2.8"
+  },
+  "devDependencies": {
+    "@rsbuild/core": "^2.2.3",
+    "@rsbuild/plugin-react": "^2.1.0",
+    "@rsbuild/plugin-sass": "^2.0.1",
+    "@types/node": "^24.13.3",
+    "@types/react": "^19.2.18",
+    "@types/react-dom": "^19.2.7",
+    "oxfmt": "^0.66.0",
+    "oxlint": "^1.82.0",
+    "typescript": "^7.0.2"
+  }
+}

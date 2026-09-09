@@ -1,0 +1,192 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.planner {
+  width: calc(100vw - 16px);
+  height: calc(100vh - 16px);
+
+  display: flex;
+  flex-direction: row;
+  gap: 8px;
+
+  background-color: #0e0b10;
+  padding: 8px;
+
+  color: #bcbab9;
+
+  .group {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+  }
+
+  .header {
+    width: 60%;
+    padding-bottom: 3px;
+    border-bottom: 1px solid #232323;
+  }
+
+  .icon {
+    width: 20px;
+    height: 20px;
+    background-color: #9a8767;
+    background: url("~@/assets/ds3-attribute-icons.png");
+
+    &.vigor {
+      background-position: calc(-20px * 33) 0;
+    }
+    &.strength {
+      background-position: calc(-20px * 32) 0;
+    }
+    &.dexterity {
+      background-position: calc(-20px * 7) 0;
+    }
+    &.faith {
+      background-position: calc(-20px * 33) 0;
+    }
+    &.vigor {
+      background-position: calc(-20px * 33) 0;
+    }
+    &.vigor {
+      background-position: calc(-20px * 33) 0;
+    }
+    &.vigor {
+      background-position: calc(-20px * 33) 0;
+    }
+    &.vigor {
+      background-position: calc(-20px * 33) 0;
+    }
+  }
+
+  .attributes {
+    //
+  }
+
+  .equipments {
+    .weapons {
+      display: flex;
+      flex-direction: row;
+      gap: 8px;
+    }
+
+    .weapon {
+      background-color: gray;
+      img {
+        width: 100px;
+        height: 100px;
+      }
+    }
+
+    .armors {
+      display: flex;
+      flex-direction: row;
+      gap: 8px;
+    }
+
+    .armor {
+      background-color: gray;
+      img {
+        width: 100px;
+        height: 100px;
+      }
+    }
+
+    .rings {
+      display: flex;
+      flex-direction: row;
+      gap: 8px;
+    }
+
+    .ring {
+      background-color: gray;
+      img {
+        width: 100px;
+        height: 100px;
+      }
+    }
+
+    .spells {
+      display: flex;
+      flex-direction: row;
+      gap: 8px;
+    }
+
+    .spell {
+      background-color: gray;
+      img {
+        width: 100px;
+        height: 100px;
+      }
+    }
+  }
+
+  .stats {
+    //
+  }
+
+  .stat-header {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 8px;
+    span {
+      flex: 1;
+      text-align: end;
+    }
+  }
+
+  .stat {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 8px;
+
+    padding-bottom: 3px;
+    border-bottom: 1px solid #232323;
+
+    span.stat-name {
+      flex: 1;
+    }
+
+    span.defense {
+      flex: 1;
+      text-align: end;
+    }
+
+    span.absorption {
+      flex: 1;
+      text-align: end;
+    }
+
+    span.resistances {
+      flex: 1;
+      text-align: end;
+    }
+
+    span.armor {
+      flex: 1;
+      text-align: end;
+    }
+  }
+}
+
+.attribute {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 8px;
+
+  padding-bottom: 3px;
+  border-bottom: 1px solid #232323;
+
+  span.attribute-name {
+    flex: 1;
+  }
+
+  input[type="number"] {
+    width: 64px;
+  }
+}

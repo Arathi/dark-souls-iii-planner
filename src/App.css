@@ -1,0 +1,79 @@
+body {
+  margin: 8px;
+  background-color: black;
+  color: white;
+}
+
+.app {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 8px;
+  width: calc(100vw - 16px);
+}
+
+.row {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 8px;
+}
+
+.character {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  border: 1px solid white;
+  padding: 8px;
+}
+
+.equipments {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  border: 1px solid white;
+  padding: 8px;
+}
+
+.weapons {
+  display: flex;
+  flex-direction: row;
+  gap: 8px;
+}
+
+.weapon {
+  border: 1px solid white;
+  width: 100px;
+  height: 100px;
+}
+
+.armors {
+  display: flex;
+  flex-direction: row;
+  gap: 8px;
+}
+
+.armor {
+  border: 1px solid white;
+  width: 100px;
+  height: 100px;
+}
+
+.stats {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  border: 1px solid white;
+  padding: 8px;
+}
+
+label {
+  flex: 1;
+}
+
+input[type="number"] {
+  width: 48px;
+}
