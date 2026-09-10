@@ -29,37 +29,36 @@ body {
     border-bottom: 1px solid #232323;
   }
 
-  .icon {
-    width: 20px;
-    height: 20px;
-    background-color: #9a8767;
-    background: url("~@/assets/ds3-attribute-icons.png");
-
-    &.vigor {
-      background-position: calc(-20px * 33) 0;
-    }
-    &.strength {
-      background-position: calc(-20px * 32) 0;
-    }
-    &.dexterity {
-      background-position: calc(-20px * 7) 0;
-    }
-    &.faith {
-      background-position: calc(-20px * 33) 0;
-    }
-    &.vigor {
-      background-position: calc(-20px * 33) 0;
-    }
-    &.vigor {
-      background-position: calc(-20px * 33) 0;
-    }
-    &.vigor {
-      background-position: calc(-20px * 33) 0;
-    }
-    &.vigor {
-      background-position: calc(-20px * 33) 0;
-    }
-  }
+  // .icon {
+  //   width: 20px;
+  //   height: 20px;
+  //   background-color: #9a8767;
+  //   background: url("~@/assets/ds3-attribute-icons.png");
+  //   &.vigor {
+  //     background-position: calc(-20px * 33) 0;
+  //   }
+  //   &.strength {
+  //     background-position: calc(-20px * 32) 0;
+  //   }
+  //   &.dexterity {
+  //     background-position: calc(-20px * 7) 0;
+  //   }
+  //   &.faith {
+  //     background-position: calc(-20px * 33) 0;
+  //   }
+  //   &.vigor {
+  //     background-position: calc(-20px * 33) 0;
+  //   }
+  //   &.vigor {
+  //     background-position: calc(-20px * 33) 0;
+  //   }
+  //   &.vigor {
+  //     background-position: calc(-20px * 33) 0;
+  //   }
+  //   &.vigor {
+  //     background-position: calc(-20px * 33) 0;
+  //   }
+  // }
 
   .attributes {
     //
@@ -173,20 +172,20 @@ body {
   }
 }
 
-.attribute {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  gap: 8px;
-
-  padding-bottom: 3px;
-  border-bottom: 1px solid #232323;
-
-  span.attribute-name {
-    flex: 1;
-  }
-
-  input[type="number"] {
-    width: 64px;
-  }
-}
+// .attribute {
+//   display: flex;
+//   flex-direction: row;
+//   align-items: center;
+//   gap: 8px;
+//
+//   padding-bottom: 3px;
+//   border-bottom: 1px solid #232323;
+//
+//   span.attribute-name {
+//     flex: 1;
+//   }
+//
+//   input[type="number"] {
+//     width: 64px;
+//   }
+// }

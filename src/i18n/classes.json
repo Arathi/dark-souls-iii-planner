@@ -1,0 +1,62 @@
+[
+  {
+    "id": "class-knight",
+    "chinese": "骑士",
+    "japanese": "騎士",
+    "english": "Knight"
+  },
+  {
+    "id": "class-mercenary",
+    "chinese": "佣兵",
+    "japanese": "傭兵",
+    "english": "Mercenary"
+  },
+  {
+    "id": "class-warrior",
+    "chinese": "战士",
+    "japanese": "戦士",
+    "english": "Warrior"
+  },
+  {
+    "id": "class-herald",
+    "chinese": "传令者",
+    "japanese": "伝令",
+    "english": "Herald"
+  },
+  {
+    "id": "class-thief",
+    "chinese": "小偷",
+    "japanese": "盗人",
+    "english": "Thief"
+  },
+  {
+    "id": "class-assassin",
+    "chinese": "刺客",
+    "japanese": "刺客",
+    "english": "Assassin"
+  },
+  {
+    "id": "class-sorcerer",
+    "chinese": "魔法师",
+    "japanese": "魔術師",
+    "english": "Sorcerer"
+  },
+  {
+    "id": "class-pyromancer",
+    "chinese": "咒术师",
+    "japanese": "呪術師",
+    "english": "Pyromancer"
+  },
+  {
+    "id": "class-cleric",
+    "chinese": "圣职",
+    "japanese": "聖職者",
+    "english": "Cleric"
+  },
+  {
+    "id": "class-deprived",
+    "chinese": "一无所有者",
+    "japanese": "持たざる者",
+    "english": "Deprived"
+  }
+]

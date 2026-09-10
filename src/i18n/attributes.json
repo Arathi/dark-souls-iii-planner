@@ -1,0 +1,62 @@
+[
+  {
+    "id": "attribute-level",
+    "chinese": "等级",
+    "japanese": "レベル",
+    "english": "Level"
+  },
+  {
+    "id": "attribute-vigor",
+    "chinese": "生命力",
+    "japanese": "生命力",
+    "english": "Vigor"
+  },
+  {
+    "id": "attribute-attunement",
+    "chinese": "集中力",
+    "japanese": "集中力",
+    "english": "Attunement"
+  },
+  {
+    "id": "attribute-endurance",
+    "chinese": "持久力",
+    "japanese": "持久力",
+    "english": "Endurance"
+  },
+  {
+    "id": "attribute-vitality",
+    "chinese": "体力",
+    "japanese": "体力",
+    "english": "Vitality"
+  },
+  {
+    "id": "attribute-strength",
+    "chinese": "力气",
+    "japanese": "筋力",
+    "english": "Strength"
+  },
+  {
+    "id": "attribute-dexterity",
+    "chinese": "敏捷",
+    "japanese": "技量",
+    "english": "Dexterity"
+  },
+  {
+    "id": "attribute-intelligence",
+    "chinese": "智力",
+    "japanese": "理力",
+    "english": "Intelligence"
+  },
+  {
+    "id": "attribute-faith",
+    "chinese": "信仰",
+    "japanese": "信仰",
+    "english": "Faith"
+  },
+  {
+    "id": "attribute-luck",
+    "chinese": "运气",
+    "japanese": "運",
+    "english": "Luck"
+  }
+]

@@ -1,21 +1,18 @@
 import { useState } from "react";
-import { Select } from "../select";
+
+import { Attribute } from "@/components/attribute";
+import { Select } from "@/components/select";
+import classes from "@/metadata/classes.json";
+import dictionary from "@/i18n/classes.json";
+import { characterStore, settingStore } from "@/store";
+
 import "./index.scss";
+import type { CharacterClass } from "@/domains/character-class";
+import { useSnapshot } from "valtio";
 
 export const Planner = () => {
-  const [name, setName] = useState("Arathis");
-  const [characterClass, setCharacterClass] = useState("knight");
-
-  const [vigor, setVigor] = useState(0);
-  const [attunement, setAttunement] = useState(0);
-  const [endurance, setEndurance] = useState(0);
-  const [vitality, setVitality] = useState(0);
-  const [strength, setStrength] = useState(0);
-  const [dexterity, setDexterity] = useState(0);
-  const [intelligence, setIntelligence] = useState(0);
-  const [faith, setFaith] = useState(0);
-  const [luck, setLuck] = useState(0);
-  const [hollow, setHollow] = useState(0);
+  const character = useSnapshot(characterStore);
+  const setting = useSnapshot(settingStore);
 
   const hp = 0;
   const fp = 0;
@@ -72,12 +69,15 @@ export const Planner = () => {
 
   const slots = [];
 
-  const classOptions = [
-    {
-      value: "knight",
-      label: "骑士",
-    },
-  ];
+  const classOptions = [];
+  classes.forEach((it, index) => {
+    const entry = dictionary.find((e) => e.id == it.id);
+    const label = entry?.[setting.language] ?? it.id;
+    classOptions.push({
+      value: index as CharacterClass,
+      label,
+    });
+  });
 
   return (
     <div className="planner">
@@ -85,112 +85,34 @@ export const Planner = () => {
         <div className="name">
           <input
             type="text"
-            value={name}
+            value={character.name}
             placeholder="角色名称"
             onChange={(event) => {
               const value = event.currentTarget.value;
-              setName(value);
+              characterStore.name = value;
             }}
           />
         </div>
         <div className="attribute class">
           <Select
             options={classOptions}
-            value={characterClass}
+            value={character.class}
             onChange={(value) => {
-              setCharacterClass(value);
+              characterStore.class = value;
             }}
           />
         </div>
         <div className="blank" />
-        <div className="attribute">
-          <span className="icon vigor" />
-          <span className="attribute-name">Vigor</span>
-          <span>{baseVigor}</span>
-          <span>&gt;</span>
-          <button>-</button>
-          <input type="number" value={vigor} />
-          <button>+</button>
-        </div>
-        <div className="attribute">
-          <span className="icon attunement" />
-          <span className="attribute-name">Attunement</span>
-          <span>{baseVigor}</span>
-          <span>&gt;</span>
-          <button>-</button>
-          <input type="number" value={vigor} />
-          <button>+</button>
-        </div>
-        <div className="attribute">
-          <span className="icon endurance" />
-          <span className="attribute-name">Endurance</span>
-          <span>{baseVigor}</span>
-          <span>&gt;</span>
-          <button>-</button>
-          <input type="number" value={vigor} />
-          <button>+</button>
-        </div>
-        <div className="attribute">
-          <span className="icon vitality" />
-          <span className="attribute-name">Vitality</span>
-          <span>{baseVigor}</span>
-          <span>&gt;</span>
-          <button>-</button>
-          <input type="number" value={vigor} />
-          <button>+</button>
-        </div>
-        <div className="attribute">
-          <span className="icon strength" />
-          <span className="attribute-name">Strength</span>
-          <span>{baseVigor}</span>
-          <span>&gt;</span>
-          <button>-</button>
-          <input type="number" value={vigor} />
-          <button>+</button>
-        </div>
-        <div className="attribute">
-          <span className="icon dexterity" />
-          <span className="attribute-name">Dexterity</span>
-          <span>{baseVigor}</span>
-          <span>&gt;</span>
-          <button>-</button>
-          <input type="number" value={vigor} />
-          <button>+</button>
-        </div>
-        <div className="attribute">
-          <span className="icon intelligence" />
-          <span className="attribute-name">Intelligence</span>
-          <span>{baseVigor}</span>
-          <span>&gt;</span>
-          <button>-</button>
-          <input type="number" value={vigor} />
-          <button>+</button>
-        </div>
-        <div className="attribute">
-          <span className="icon faith" />
-          <span className="attribute-name">Faith</span>
-          <span>{baseVigor}</span>
-          <span>&gt;</span>
-          <button>-</button>
-          <input type="number" value={vigor} />
-          <button>+</button>
-        </div>
-        <div className="attribute">
-          <span className="icon luck" />
-          <span className="attribute-name">Luck</span>
-          <span>{baseVigor}</span>
-          <span>&gt;</span>
-          <button>-</button>
-          <input type="number" value={vigor} />
-          <button>+</button>
-        </div>
-        <div className="attribute">
-          <span className="icon hollow" />
-          <span className="attribute-name">Hollow</span>
-          <button>-</button>
-          <input type="number" value={hollow} />
-          <button>+</button>
-        </div>
+        <Attribute property="level" editable={false} />
+        <Attribute property="vigor" editable={true} />
+        <Attribute property="attunement" editable={true} />
+        <Attribute property="endurance" editable={true} />
+        <Attribute property="vitality" editable={true} />
+        <Attribute property="strength" editable={true} />
+        <Attribute property="dexterity" editable={true} />
+        <Attribute property="intelligence" editable={true} />
+        <Attribute property="faith" editable={true} />
+        <Attribute property="luck" editable={true} />
       </div>
       <div className="group equipments">
         <div className="weapons right">

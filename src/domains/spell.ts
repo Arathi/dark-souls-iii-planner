@@ -4,7 +4,7 @@ export interface Spell {
 }
 
 export enum SpellType {
-  Magic, // 魔法
-  Pyromancy, // 咒术
-  Miracle, // 奇迹
+  Sorceries, // 魔法
+  Pyromancies, // 咒术
+  Miracles, // 奇迹
 }
