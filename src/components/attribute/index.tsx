@@ -90,42 +90,27 @@ export const Attribute: React.FC<Props> = ({ property, editable = false }) => {
     characterStore[property] = actualValue;
   }
 
-  let actions: React.ReactNode[] = [];
+  let baseValueNodes: React.ReactNode[] = [];
+  if (property != "hollow") {
+    baseValueNodes = [
+      <span className="a-value">{baseValue}</span>,
+      <span>⇒</span>,
+    ];
+  }
+
+  let valueNodes: React.ReactNode[] = [];
   if (editable) {
-    actions = [
+    valueNodes = [
       <button
         key="decrement"
         className="decrement"
         onClick={decrement}
         disabled={!editable}
       >
-        ▼
+        〈
       </button>,
-      <button
-        key="increment"
-        className="increment"
-        onClick={increment}
-        disabled={!editable}
-      >
-        ▲
-      </button>,
-    ];
-  } else {
-    actions = [
-      <div key="decrement" className="decrement" />,
-      <div key="increment" className="increment" />,
-    ];
-  }
-
-  // △▽
-  return (
-    <div className="attribute">
-      <img className="icon" alt={`attribute-${property}`} src={icon} />
-      <span className="property">{name}</span>
-      <span className="base-value">{baseValue}</span>
-      <span>→</span>
       <input
-        className="value"
+        className="actual-value"
         type="text"
         value={displayValue}
         disabled={!editable}
@@ -138,8 +123,32 @@ export const Attribute: React.FC<Props> = ({ property, editable = false }) => {
         onBlur={(event) => {
           update(value);
         }}
-      />
-      {actions}
+      />,
+      <button
+        key="increment"
+        className="increment"
+        onClick={increment}
+        disabled={!editable}
+      >
+        〉
+      </button>,
+    ];
+  } else {
+    valueNodes = [
+      <div key="decrement" className="decrement" />,
+      <span className="actual-value">{displayValue}</span>,
+      <div key="increment" className="increment" />,
+    ];
+  }
+
+  return (
+    <div className="attribute">
+      <div className="property">
+        <img className="icon" alt={`attribute-${property}`} src={icon} />
+        <span className="property-name chinese">{name}</span>
+      </div>
+      <div className="base-value">{baseValueNodes}</div>
+      <div className="value">{valueNodes}</div>
     </div>
   );
 };

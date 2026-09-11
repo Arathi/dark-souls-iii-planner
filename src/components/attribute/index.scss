@@ -4,8 +4,11 @@
   align-items: center;
   gap: 8px;
   padding-bottom: 3px;
-  border-bottom: 1px solid #aaaaaa;
+  border-bottom: 1px solid #474548;
   color: #aaaaaa;
+  &:hover {
+    background-color: #57311d;
+  }
 
   .icon {
     width: 24px;
@@ -13,17 +16,50 @@
   }
 
   .property {
-    flex: 1;
+    flex: 4;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 8px;
+    // background-color: rgba(255, 0, 0, 0.1);
 
-    &.chinese {
-      font-family: "仿宋";
+    .property-name {
+      &.chinese {
+        font-family: "仿宋";
+        font-size: 16px;
+      }
+
+      &.japanese {
+        //
+      }
+
+      &.english {
+        //
+      }
     }
   }
 
   .base-value {
+    flex: 3;
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+    align-items: center;
+    gap: 8px;
+    // background-color: rgba(0, 255, 0, 0.1);
   }
 
   .value {
+    flex: 3;
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+    align-items: center;
+    gap: 8px;
+    // background-color: rgba(0, 0, 255, 0.1);
+  }
+
+  .actual-value {
     width: 32px;
     text-align: end;
   }

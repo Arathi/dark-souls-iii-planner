@@ -58,5 +58,53 @@
     "chinese": "运气",
     "japanese": "運",
     "english": "Luck"
+  },
+  {
+    "id": "attribute-required-souls",
+    "chinese": "所需魂",
+    "japanese": "Required Souls",
+    "english": "Required Souls"
+  },
+  {
+    "id": "stat-hp",
+    "chinese": "血量",
+    "japanese": "HP",
+    "english": "HP"
+  },
+  {
+    "id": "stat-fp",
+    "chinese": "专注值",
+    "japanese": "FP",
+    "english": "FP"
+  },
+  {
+    "id": "stat-stamina",
+    "chinese": "精力",
+    "japanese": "Stamina",
+    "english": "Stamina"
+  },
+  {
+    "id": "stat-equip-load",
+    "chinese": "装备重量",
+    "japanese": "Equip Load",
+    "english": "Equip Load"
+  },
+  {
+    "id": "stat-poise",
+    "chinese": "强韧度",
+    "japanese": "Poise",
+    "english": "Poise"
+  },
+  {
+    "id": "stat-item-discovery",
+    "chinese": "寻宝能力",
+    "japanese": "Item Discovery",
+    "english": "Item Discovery"
+  },
+  {
+    "id": "stat-attunement-slots",
+    "chinese": "记忆空格",
+    "japanese": "Attunement Slots",
+    "english": "Attunement Slots"
   }
 ]
