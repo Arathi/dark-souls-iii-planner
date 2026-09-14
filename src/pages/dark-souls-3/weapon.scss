@@ -1,0 +1,57 @@
+.weapon {
+  --textures-width: 85px;
+  --textures-height: 97px;
+
+  --texture-size: 85px;
+  --name-height: 20px;
+  --gap: 8px;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: var(--gap);
+
+  width: var(--textures-width);
+  height: var(--textures-height);
+
+  .textures {
+    position: relative;
+    // background-color: rgba(255, 0, 0, 0.1);
+    width: var(--textures-width);
+    height: var(--textures-height);
+
+    .background {
+      position: absolute;
+      left: 0;
+      top: 0;
+      img {
+        width: var(--textures-width);
+        height: var(--textures-height);
+      }
+    }
+
+    .texture {
+      position: absolute;
+      left: 0;
+      top: 6px;
+      img {
+        width: var(--texture-size);
+        height: var(--texture-size);
+      }
+    }
+
+    .infusion {
+      position: absolute;
+      right: 0;
+      bottom: 0;
+    }
+  }
+
+  .name {
+    display: none;
+    flex-direction: row;
+    align-items: center;
+    font-family: "仿宋";
+    background-color: rgba(0, 0, 255, 0.1);
+  }
+}

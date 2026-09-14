@@ -1,0 +1,52 @@
+.attribute {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding-top: 4px;
+  padding-bottom: 3px;
+  border-bottom: 1px solid var(--color-underline-normal);
+  --opacity-adjust: 0;
+
+  &:hover {
+    background-color: #542f1d;
+    --display-adjust: 1;
+  }
+
+  .label {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 8px;
+    flex: 1;
+    font-family: "仿宋";
+  }
+
+  .source {
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+    align-items: center;
+    gap: 8px;
+    flex: 1;
+  }
+
+  .target {
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+    align-items: center;
+    gap: 8px;
+    flex: 1;
+
+    input[type="text"] {
+      text-align: end;
+      width: 36px;
+    }
+
+    button.adjust {
+      background: none;
+      border: none;
+      color: white;
+    }
+  }
+}

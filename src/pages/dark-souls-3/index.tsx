@@ -1,196 +1,15 @@
-import { useMemo, useState } from "react";
 import { useSnapshot } from "valtio";
-import { characterStore, settingStore } from "@/store";
-import dictionary from "@/i18n/attributes.json";
+import { characterStore } from "@/store";
+import { Attribute, ComputedAttribute, ReadonlyAttribute } from "./attribute";
+import { Stat, EquipWeight } from "./stat";
 
 import "./index.scss";
-
-const Attribute = ({ attribute }) => {
-  const character = useSnapshot(characterStore);
-  const setting = useSnapshot(settingStore);
-  const source = character.baseAttributes[attribute];
-
-  const [target, setTarget] = useState(source);
-
-  const icon = `/images/attributes/${attribute}.avif`;
-  const entry = dictionary.find((it) => it.id == `attribute-${attribute}`);
-  const label = entry[setting.language];
-
-  let decrementDisabled = false;
-  let incrementDisabled = false;
-
-  function decrement() {
-    update(target - 1);
-  }
-
-  function increment() {
-    update(target + 1);
-  }
-
-  function update(input: number) {
-    const min = source;
-    const max = 99;
-    let target = input;
-    if (target < min) {
-      target = min;
-    }
-    if (target > max) {
-      target = max;
-    }
-    const value = target - min;
-    setTarget(target);
-    characterStore[attribute] = value;
-  }
-
-  return (
-    <div className="attribute">
-      <div className="label">
-        <img alt={`attribute-${attribute}`} src={icon} width={24} height={24} />
-        <span>{label}</span>
-      </div>
-      <div className="source">
-        <span>{source}</span>
-        <span>⇒</span>
-      </div>
-      <div className="target">
-        <button
-          type="button"
-          className="adjust decrement"
-          onClick={decrement}
-          disabled={decrementDisabled}
-        >
-          &lt;
-        </button>
-        <input type="text" value={target} />
-        <button
-          type="button"
-          className="adjust increment"
-          onClick={increment}
-          disabled={incrementDisabled}
-        >
-          &gt;
-        </button>
-      </div>
-    </div>
-  );
-};
-
-const ReadonlyAttribute = ({ attribute, targetOnly = false, value }) => {
-  const character = useSnapshot(characterStore);
-  const setting = useSnapshot(settingStore);
-  const source = character.baseAttributes[attribute];
-
-  const icon = `/images/attributes/${attribute}.avif`;
-  const entry = dictionary.find((it) => it.id == `attribute-${attribute}`);
-  const label = entry[setting.language];
-
-  const sourceNodes = !targetOnly ? (
-    <div className="source">
-      <span>{source}</span>
-      <span>⇒</span>
-    </div>
-  ) : null;
-
-  return (
-    <div className="attribute">
-      <div className="label">
-        <img alt={`attribute-${attribute}`} src={icon} width={24} height={24} />
-        <span>{label}</span>
-      </div>
-      {sourceNodes}
-      <div className="target">
-        <span style={{ width: 24 }} />
-        <span>{value}</span>
-        <span style={{ width: 24 }} />
-      </div>
-    </div>
-  );
-};
-
-const ComputedAttribute = ({
-  attribute,
-  slug = attribute,
-  iconFileName = slug,
-  value,
-}) => {
-  const setting = useSnapshot(settingStore);
-  const icon = `/images/attributes/${iconFileName}.avif`;
-  const entry = dictionary.find((it) => it.id == `attribute-${slug}`);
-  let label = entry[setting.language];
-
-  return (
-    <div className="attribute">
-      <div className="label">
-        <img
-          alt={`computed-attribute-${slug}`}
-          src={icon}
-          width={24}
-          height={24}
-        />
-        <span>{label}</span>
-      </div>
-      <div />
-      <div className="target">
-        <span style={{ width: 24 }} />
-        <span>{value}</span>
-        <span style={{ width: 24 }} />
-      </div>
-    </div>
-  );
-};
-
-const Stat = ({ stat, slug = stat }) => {
-  const character = useSnapshot(characterStore);
-  const setting = useSnapshot(settingStore);
-
-  const icon = `/images/stats/${slug}.avif`;
-  const entry = dictionary.find((it) => it.id == `stat-${slug}`);
-  const label = entry[setting.language];
-  const value = character.stats[stat];
-
-  return (
-    <div className="stat">
-      <div className="label">
-        <img src={icon} alt={`stat-${stat}`} width={24} height={24} />
-        <span>{label}</span>
-      </div>
-      <div className="value">
-        <span>{value}</span>
-      </div>
-    </div>
-  );
-};
-
-const EquipWeight = ({ stat, slug }) => {
-  const character = useSnapshot(characterStore);
-  const setting = useSnapshot(settingStore);
-  const icon = `/images/stats/${slug}.avif`;
-  const entry = dictionary.find((it) => it.id == `stat-${slug}`);
-  const label = entry[setting.language];
-
-  const weight: number = character.stats.equipWeight;
-  const load: number = character.stats.equipLoad;
-  const percent = (weight * 100.0) / load;
-
-  return (
-    <div className="stat">
-      <div className="label">
-        <img src={icon} alt={`stat-${stat}`} width={24} height={24} />
-        <span>{label}</span>
-      </div>
-      <div className="value">
-        <span>({percent.toFixed(2)}%)</span>
-        <span>{weight.toFixed(2)}</span>
-        <span>/</span>
-        <span>{load.toFixed(2)}</span>
-      </div>
-    </div>
-  );
-};
+import { Weapon } from "./weapon";
+import { Armor } from "./armor";
+import { Ring } from "./ring";
 
 const Page = () => {
   const character = useSnapshot(characterStore);
-  const setting = useSnapshot(settingStore);
 
   return (
     <div className="app-dark-souls-3">
@@ -216,9 +35,31 @@ const Page = () => {
       </div>
       <div className="equipments">
         <span className="title">Weapons (Right Hand)</span>
+        <div className="weapons right">
+          <Weapon hand="right" position={1} />
+          <Weapon hand="right" position={2} />
+          <Weapon hand="right" position={3} />
+        </div>
         <span className="title">Weapons (Left Hand)</span>
+        <div className="weapons left">
+          <Weapon hand="left" position={1} />
+          <Weapon hand="left" position={2} />
+          <Weapon hand="left" position={3} />
+        </div>
         <span className="title">Armors</span>
+        <div className="armors">
+          <Armor position="head" />
+          <Armor position="body" />
+          <Armor position="hands" />
+          <Armor position="legs" />
+        </div>
         <span className="title">Rings</span>
+        <div className="rings">
+          <Ring position={1} />
+          <Ring position={2} />
+          <Ring position={3} />
+          <Ring position={4} />
+        </div>
       </div>
       <div className="stats">
         <span className="title">Basic power</span>

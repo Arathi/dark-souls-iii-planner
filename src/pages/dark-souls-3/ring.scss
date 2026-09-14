@@ -1,0 +1,35 @@
+.ring {
+  .textures {
+    position: relative;
+    width: 85px;
+    height: 97px;
+
+    .background {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 85px;
+      height: 97px;
+      background-color: #393939;
+
+      img {
+        display: none;
+        width: 85px;
+        height: 97px;
+      }
+    }
+
+    .texture {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 85px;
+      height: 97px;
+
+      img {
+        width: 85px;
+        height: 85px;
+      }
+    }
+  }
+}
