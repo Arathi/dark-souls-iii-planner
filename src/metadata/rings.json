@@ -1,0 +1,1788 @@
+[
+  {
+    "id": 2,
+    "name": "Aldrich's Ruby",
+    "rank": 0,
+    "weight": 0.8,
+    "effects": [
+      {
+        "alters": "",
+        "alter_value": 0,
+        "alter_method": "",
+        "description": "Recovers HP from critical attacks"
+      }
+    ]
+  },
+  {
+    "id": 1,
+    "name": "Aldrich's Sapphire",
+    "rank": 0,
+    "weight": 0.8,
+    "effects": [
+      {
+        "alters": "",
+        "alter_value": 0,
+        "alter_method": "",
+        "description": "Recover FP from critical attacks"
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "name": "Ashen Estus Ring",
+    "rank": 0,
+    "weight": 0.8,
+    "effects": [
+      {
+        "alters": "",
+        "alter_value": 0,
+        "alter_method": "",
+        "description": "Increases FP restored from Ashen Estus Flask"
+      }
+    ]
+  },
+  {
+    "id": 58,
+    "name": "Bellowing Dragoncrest Ring",
+    "rank": 0,
+    "weight": 1,
+    "effects": [
+      {
+        "alters": "",
+        "alter_value": 0,
+        "alter_method": "",
+        "description": "Boosts sorcery damage by 20%"
+      }
+    ]
+  },
+  {
+    "id": 37,
+    "name": "Bloodbite Ring",
+    "rank": 0,
+    "weight": 0.6,
+    "effects": [
+      {
+        "alters": "bleed",
+        "alter_value": 90,
+        "alter_method": "add",
+        "description": "Increases bleed resistance by 90 points"
+      }
+    ]
+  },
+  {
+    "id": 38,
+    "name": "Bloodbite Ring",
+    "rank": 1,
+    "weight": 0.6,
+    "effects": [
+      {
+        "alters": "bleed",
+        "alter_value": 140,
+        "alter_method": "add",
+        "description": "Increases bleed resistance by 140 points"
+      }
+    ]
+  },
+  {
+    "id": 91,
+    "name": "Blue Tearstone Ring",
+    "rank": 0,
+    "weight": 1.1,
+    "effects": [
+      {
+        "alters": "",
+        "alter_value": 0,
+        "alter_method": "",
+        "description": "Decreases incoming damage by 20% when HP is below 20%"
+      }
+    ]
+  },
+  {
+    "id": 105,
+    "name": "Calamity Ring",
+    "rank": 0,
+    "weight": 0.8,
+    "effects": [
+      {
+        "alters": "",
+        "alter_value": 0,
+        "alter_method": "",
+        "description": "Causes the wearer to take double damage"
+      }
+    ]
+  },
+  {
+    "id": 95,
+    "name": "Carthus Bloodring",
+    "rank": 0,
+    "weight": 0.8,
+    "effects": [
+      {
+        "alters": "",
+        "alter_value": 0,
+        "alter_method": "",
+        "description": "Boosts rolling invincibility at the cost of defense"
+      }
+    ]
+  },
+  {
+    "id": 94,
+    "name": "Carthus Milk Ring",
+    "rank": 0,
+    "weight": 0.8,
+    "effects": [
+      {
+        "alters": "dexterity",
+        "alter_value": 3,
+        "alter_method": "add",
+        "description": "+3 dexterity and obscures while rolling"
+      }
+    ]
+  },
+  {
+    "id": 109,
+    "name": "Chillbite Ring",
+    "rank": 0,
+    "weight": 0.6,
+    "effects": [
+      {
+        "alters": "frost",
+        "alter_value": 140,
+        "alter_method": "add",
+        "description": "Raises Frost resist by 140"
+      }
+    ]
+  },
+  {
+    "id": 10,
+    "name": "Chloranthy Ring",
+    "rank": 0,
+    "weight": 0.7,
+    "effects": [
+      {
+        "alters": "",
+        "alter_value": 0,
+        "alter_method": "",
+        "description": "Raises stamina recovery speed +7/s"
+      }
+    ]
+  },
+  {
+    "id": 11,
+    "name": "Chloranthy Ring",
+    "rank": 1,
+    "weight": 0.7,
+    "effects": [
+      {
+        "alters": "",
+        "alter_value": 0,
+        "alter_method": "",
+        "description": "Raises stamina recovery speed +8/s"
+      }
+    ]
+  },
+  {
+    "id": 12,
+    "name": "Chloranthy Ring",
+    "rank": 2,
+    "weight": 0.7,
+    "effects": [
+      {
+        "alters": "",
+        "alter_value": 0,
+        "alter_method": "",
+        "description": "Raises stamina recovery speed +9/s"
+      }
+    ]
+  },
+  {
+    "id": 110,
+    "name": "Chloranthy Ring",
+    "rank": 3,
+    "weight": 0.7,
+    "effects": [
+      {
+        "alters": "",
+        "alter_value": 0,
+        "alter_method": "",
+        "description": "Raises stamina recovery speed by a bunch"
+      }
+    ]
+  },
+  {
+    "id": 48,
+    "name": "Covetous Gold Serpent Ring",
+    "rank": 0,
+    "weight": 1.2,
+    "effects": [
+      {
+        "alters": "discover",
+        "alter_value": 50,
+        "alter_method": "add",
+        "description": "Increases item discovery by +50"
+      }
+    ]
+  },
+  {
+    "id": 49,
+    "name": "Covetous Gold Serpent Ring",
+    "rank": 1,
+    "weight": 1.2,
+    "effects": [
+      {
+        "alters": "discover",
+        "alter_value": 75,
+        "alter_method": "add",
+        "description": "Increases item discovery by 75"
+      }
+    ]
+  },
+  {
+    "id": 50,
+    "name": "Covetous Gold Serpent Ring",
+    "rank": 2,
+    "weight": 1.2,
+    "effects": [
+      {
+        "alters": "discover",
+        "alter_value": 100,
+        "alter_method": "add",
+        "description": "Increases item discovery by 100"
+      }
+    ]
+  },
+  {
+    "id": 114,
+    "name": "Covetous Gold Serpent Ring",
+    "rank": 3,
+    "weight": 1.2,
+    "effects": [
+      {
+        "alters": "discover",
+        "alter_value": 115,
+        "alter_method": "add",
+        "description": "Increases item discovery by +114"
+      }
+    ]
+  },
+  {
+    "id": 51,
+    "name": "Covetous Silver Serpent Ring",
+    "rank": 0,
+    "weight": 1.2,
+    "effects": [
+      {
+        "alters": "",
+        "alter_value": 0,
+        "alter_method": "",
+        "description": "+10% more souls"
+      }
+    ]
+  },
+  {
+    "id": 52,
+    "name": "Covetous Silver Serpent Ring",
+    "rank": 1,
+    "weight": 1.2,
+    "effects": [
+      {
+        "alters": "",
+        "alter_value": 0,
+        "alter_method": "",
+        "description": "+20% more souls"
+      }
+    ]
+  },
+  {
+    "id": 53,
+    "name": "Covetous Silver Serpent Ring",
+    "rank": 2,
+    "weight": 1.2,
+    "effects": [
+      {
+        "alters": "",
+        "alter_value": 0,
+        "alter_method": "",
+        "description": "+30% more souls"
+      }
+    ]
+  },
+  {
+    "id": 115,
+    "name": "Covetous Silver Serpent Ring",
+    "rank": 3,
+    "weight": 1.2,
+    "effects": [
+      {
+        "alters": "",
+        "alter_value": 0,
+        "alter_method": "",
+        "description": "+35% more souls"
+      }
+    ]
+  },
+  {
+    "id": 41,
+    "name": "Cursebite Ring",
+    "rank": 0,
+    "weight": 0.6,
+    "effects": [
+      {
+        "alters": "curse",
+        "alter_value": 150,
+        "alter_method": "add",
+        "description": "Increases curse resistance by 150 points"
+      }
+    ]
+  },
+  {
+    "id": 89,
+    "name": "Dark Clutch Ring",
+    "rank": 0,
+    "weight": 0.8,
+    "effects": [
+      {
+        "alters": "special",
+        "alter_value": 0,
+        "alter_method": "",
+        "description": "Decreases physical absorption"
+      },
+      {
+        "alters": "dark_ar",
+        "alter_value": 1.15,
+        "alter_method": "multiply",
+        "description": "Increases dark attack by 15%"
+      }
+    ]
+  },
+  {
+    "id": 32,
+    "name": "Dark Stoneplate Ring",
+    "rank": 0,
+    "weight": 0.6,
+    "effects": [
+      {
+        "alters": "dark",
+        "alter_value": 0.87,
+        "alter_method": "multiply",
+        "description": "Increases dark absorption by 13%"
+      }
+    ]
+  },
+  {
+    "id": 33,
+    "name": "Dark Stoneplate Ring",
+    "rank": 1,
+    "weight": 0.6,
+    "effects": [
+      {
+        "alters": "dark",
+        "alter_value": 0.83,
+        "alter_method": "multiply",
+        "description": "Increases dark absorption by 17%"
+      }
+    ]
+  },
+  {
+    "id": 34,
+    "name": "Dark Stoneplate Ring",
+    "rank": 2,
+    "weight": 0.6,
+    "effects": [
+      {
+        "alters": "dark",
+        "alter_value": 0.8,
+        "alter_method": "multiply",
+        "description": "Increases dark absorption by 20%"
+      }
+    ]
+  },
+  {
+    "id": 56,
+    "name": "Darkmoon Ring",
+    "rank": 0,
+    "weight": 0.8,
+    "effects": [
+      {
+        "alters": "slots",
+        "alter_value": 2,
+        "alter_method": "add",
+        "description": "+2 Attunement Slots"
+      }
+    ]
+  },
+  {
+    "id": 55,
+    "name": "Deep Ring",
+    "rank": 0,
+    "weight": 0.5,
+    "effects": [
+      {
+        "alters": "slots",
+        "alter_value": 1,
+        "alter_method": "add",
+        "description": "+1 Attunement Slot"
+      }
+    ]
+  },
+  {
+    "id": 80,
+    "name": "Dragonscale Ring",
+    "rank": 0,
+    "weight": 1.1,
+    "effects": [
+      {
+        "alters": "",
+        "alter_value": 0,
+        "alter_method": "",
+        "description": "Reduced damage taken from backstabs by 30%"
+      }
+    ]
+  },
+  {
+    "id": 68,
+    "name": "Dusk Crown Ring",
+    "rank": 0,
+    "weight": 0.6,
+    "effects": [
+      {
+        "alters": "hp",
+        "alter_value": 0.8,
+        "alter_method": "multiply",
+        "description": "Reduces consumption of FP by 25% at the cost of 20% less max HP"
+      }
+    ]
+  },
+  {
+    "id": 9,
+    "name": "Estus Ring",
+    "rank": 0,
+    "weight": 0.8,
+    "effects": [
+      {
+        "alters": "",
+        "alter_value": 0,
+        "alter_method": "",
+        "description": "Increases HP restored with Estus Flask by 20%"
+      }
+    ]
+  },
+  {
+    "id": 79,
+    "name": "Farron Ring",
+    "rank": 0,
+    "weight": 0.8,
+    "effects": [
+      {
+        "alters": "",
+        "alter_value": 0,
+        "alter_method": "",
+        "description": "Reduces skill FP consumption by 30%"
+      }
+    ]
+  },
+  {
+    "id": 88,
+    "name": "Fire Clutch Ring",
+    "rank": 0,
+    "weight": 0.8,
+    "effects": [
+      {
+        "alters": "special",
+        "alter_value": 0,
+        "alter_method": "",
+        "description": "Decreases physical absorption"
+      },
+      {
+        "alters": "fire_ar",
+        "alter_value": 1.15,
+        "alter_method": "multiply",
+        "description": "Increases fire attack by 15%"
+      }
+    ]
+  },
+  {
+    "id": 26,
+    "name": "Flame Stoneplate Ring",
+    "rank": 0,
+    "weight": 0.6,
+    "effects": [
+      {
+        "alters": "fire",
+        "alter_value": 0.87,
+        "alter_method": "multiply",
+        "description": "Increases fire absorption by 13%"
+      }
+    ]
+  },
+  {
+    "id": 27,
+    "name": "Flame Stoneplate Ring",
+    "rank": 1,
+    "weight": 0.6,
+    "effects": [
+      {
+        "alters": "fire",
+        "alter_value": 0.83,
+        "alter_method": "multiply",
+        "description": "Increases fire absorption by 17%"
+      }
+    ]
+  },
+  {
+    "id": 28,
+    "name": "Flame Stoneplate Ring",
+    "rank": 2,
+    "weight": 0.6,
+    "effects": [
+      {
+        "alters": "fire",
+        "alter_value": 0.8,
+        "alter_method": "multiply",
+        "description": "Increases fire absorption by 20%"
+      }
+    ]
+  },
+  {
+    "id": 42,
+    "name": "Fleshbite Ring",
+    "rank": 0,
+    "weight": 0.9,
+    "effects": [
+      {
+        "alters": "poison",
+        "alter_value": 40,
+        "alter_method": "add",
+        "description": "Raises Poison resist by 40"
+      },
+      {
+        "alters": "frost",
+        "alter_value": 40,
+        "alter_method": "add",
+        "description": "Raises Frost resist by 40"
+      },
+      {
+        "alters": "bleed",
+        "alter_value": 40,
+        "alter_method": "add",
+        "description": "Raises Bleed resist by 40"
+      },
+      {
+        "alters": "curse",
+        "alter_value": 40,
+        "alter_method": "add",
+        "description": "Raises Curse resist by 40"
+      }
+    ]
+  },
+  {
+    "id": 43,
+    "name": "Fleshbite Ring",
+    "rank": 1,
+    "weight": 0.9,
+    "effects": [
+      {
+        "alters": "poison",
+        "alter_value": 60,
+        "alter_method": "add",
+        "description": "Raises Poison resist by 60"
+      },
+      {
+        "alters": "frost",
+        "alter_value": 60,
+        "alter_method": "add",
+        "description": "Raises Frost resist by 60"
+      },
+      {
+        "alters": "bleed",
+        "alter_value": 60,
+        "alter_method": "add",
+        "description": "Raises Bleed resist by 60"
+      },
+      {
+        "alters": "curse",
+        "alter_value": 60,
+        "alter_method": "add",
+        "description": "Raises Curse resist by 60"
+      }
+    ]
+  },
+  {
+    "id": 85,
+    "name": "Flynn's Ring",
+    "rank": 0,
+    "weight": 0.9,
+    "effects": [
+      {
+        "alters": "special",
+        "alter_value": 0,
+        "alter_method": "",
+        "description": "Lowering equip load increases attack power"
+      }
+    ]
+  },
+  {
+    "id": 59,
+    "name": "Great Swamp Ring",
+    "rank": 0,
+    "weight": 0.7,
+    "effects": [
+      {
+        "alters": "",
+        "alter_value": 0,
+        "alter_method": "",
+        "description": "Boosts pyromancy damage by 12%"
+      }
+    ]
+  },
+  {
+    "id": 13,
+    "name": "Havel's Ring",
+    "rank": 0,
+    "weight": 1.5,
+    "effects": [
+      {
+        "alters": "equip",
+        "alter_value": 1.15,
+        "alter_method": "multiply",
+        "description": "Increases maximum equip load by 15%"
+      }
+    ]
+  },
+  {
+    "id": 14,
+    "name": "Havel's Ring",
+    "rank": 1,
+    "weight": 1.5,
+    "effects": [
+      {
+        "alters": "equip",
+        "alter_value": 1.17,
+        "alter_method": "multiply",
+        "description": "Increases maximum equip load by 17%"
+      }
+    ]
+  },
+  {
+    "id": 15,
+    "name": "Havel's Ring",
+    "rank": 2,
+    "weight": 1.5,
+    "effects": [
+      {
+        "alters": "equip",
+        "alter_value": 1.18,
+        "alter_method": "multiply",
+        "description": "Increases maximum equip load by 18%"
+      }
+    ]
+  },
+  {
+    "id": 116,
+    "name": "Havel's Ring",
+    "rank": 3,
+    "weight": 1.5,
+    "effects": [
+      {
+        "alters": "equip",
+        "alter_value": 1.19,
+        "alter_method": "multiply",
+        "description": "Increases maximum equip load by 19%"
+      }
+    ]
+  },
+  {
+    "id": 73,
+    "name": "Hawk Ring",
+    "rank": 0,
+    "weight": 0.7,
+    "effects": [
+      {
+        "alters": "",
+        "alter_value": 0,
+        "alter_method": "",
+        "description": "Extends the range of arrows"
+      }
+    ]
+  },
+  {
+    "id": 74,
+    "name": "Hornet Ring",
+    "rank": 0,
+    "weight": 1.1,
+    "effects": [
+      {
+        "alters": "",
+        "alter_value": 0,
+        "alter_method": "",
+        "description": "Increases critical damage by 30%"
+      }
+    ]
+  },
+  {
+    "id": 81,
+    "name": "Horsehoof Ring",
+    "rank": 0,
+    "weight": 0.6,
+    "effects": [
+      {
+        "alters": "",
+        "alter_value": 0,
+        "alter_method": "",
+        "description": "Enemies lose 30% more stamina when guarding from kicks"
+      }
+    ]
+  },
+  {
+    "id": 45,
+    "name": "Hunter's Ring",
+    "rank": 0,
+    "weight": 0.8,
+    "effects": [
+      {
+        "alters": "dexterity",
+        "alter_value": 5,
+        "alter_method": "add",
+        "description": "Increases Dexterity by 5 points"
+      }
+    ]
+  },
+  {
+    "id": 75,
+    "name": "Knight Slayer's Ring",
+    "rank": 0,
+    "weight": 0.9,
+    "effects": [
+      {
+        "alters": "",
+        "alter_value": 0,
+        "alter_method": "",
+        "description": "Enemies lose more stamina when guarding"
+      }
+    ]
+  },
+  {
+    "id": 44,
+    "name": "Knight's Ring",
+    "rank": 0,
+    "weight": 0.8,
+    "effects": [
+      {
+        "alters": "strength",
+        "alter_value": 5,
+        "alter_method": "add",
+        "description": "Increases Strength by 5 points"
+      }
+    ]
+  },
+  {
+    "id": 69,
+    "name": "Leo Ring",
+    "rank": 0,
+    "weight": 0.5,
+    "effects": [
+      {
+        "alters": "",
+        "alter_value": 0,
+        "alter_method": "",
+        "description": "Strengthens thrust weapon counter attacks by 15%"
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "name": "Life Ring",
+    "rank": 0,
+    "weight": 0.3,
+    "effects": [
+      {
+        "alters": "hp",
+        "alter_value": 1.07,
+        "alter_method": "multiply",
+        "description": "Increases HP by 7%"
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "name": "Life Ring",
+    "rank": 1,
+    "weight": 0.3,
+    "effects": [
+      {
+        "alters": "hp",
+        "alter_value": 1.08,
+        "alter_method": "multiply",
+        "description": "Increases HP by 8%"
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "name": "Life Ring",
+    "rank": 2,
+    "weight": 0.3,
+    "effects": [
+      {
+        "alters": "hp",
+        "alter_value": 1.09,
+        "alter_method": "multiply",
+        "description": "Increases HP by 9%"
+      }
+    ]
+  },
+  {
+    "id": 7,
+    "name": "Life Ring",
+    "rank": 3,
+    "weight": 0.3,
+    "effects": [
+      {
+        "alters": "hp",
+        "alter_value": 1.1,
+        "alter_method": "multiply",
+        "description": "Increases HP by 10%"
+      }
+    ]
+  },
+  {
+    "id": 87,
+    "name": "Lightning Clutch Ring",
+    "rank": 0,
+    "weight": 0.8,
+    "effects": [
+      {
+        "alters": "special",
+        "alter_value": 0,
+        "alter_method": "",
+        "description": "Decreases physical absorption"
+      },
+      {
+        "alters": "lightning_ar",
+        "alter_value": 1.15,
+        "alter_method": "multiply",
+        "description": "Increases lightning attack by 15%"
+      }
+    ]
+  },
+  {
+    "id": 63,
+    "name": "Lingering Dragoncrest Ring",
+    "rank": 0,
+    "weight": 0.5,
+    "effects": [
+      {
+        "alters": "",
+        "alter_value": 0,
+        "alter_method": "",
+        "description": "Extends length of spell effect by 30%"
+      }
+    ]
+  },
+  {
+    "id": 64,
+    "name": "Lingering Dragoncrest Ring",
+    "rank": 1,
+    "weight": 0.5,
+    "effects": [
+      {
+        "alters": "",
+        "alter_value": 0,
+        "alter_method": "",
+        "description": "Extends length of spell effect by 35%"
+      }
+    ]
+  },
+  {
+    "id": 65,
+    "name": "Lingering Dragoncrest Ring",
+    "rank": 2,
+    "weight": 0.5,
+    "effects": [
+      {
+        "alters": "",
+        "alter_value": 0,
+        "alter_method": "",
+        "description": "Extends length of spell effect by 40%"
+      }
+    ]
+  },
+  {
+    "id": 93,
+    "name": "Lloyd's Shield Ring",
+    "rank": 0,
+    "weight": 0.9,
+    "effects": [
+      {
+        "alters": "",
+        "alter_value": 0,
+        "alter_method": "",
+        "description": "Boosts absorption by 25% when HP is full"
+      }
+    ]
+  },
+  {
+    "id": 92,
+    "name": "Lloyd's Sword Ring",
+    "rank": 0,
+    "weight": 0.9,
+    "effects": [
+      {
+        "alters": "",
+        "alter_value": 0,
+        "alter_method": "",
+        "description": "Boosts attack by 10% when HP is full"
+      }
+    ]
+  },
+  {
+    "id": 86,
+    "name": "Magic Clutch Ring",
+    "rank": 0,
+    "weight": 0.8,
+    "effects": [
+      {
+        "alters": "special",
+        "alter_value": 0,
+        "alter_method": "",
+        "description": "Decreases physical absorption"
+      },
+      {
+        "alters": "magic_ar",
+        "alter_value": 1.15,
+        "alter_method": "multiply",
+        "description": "Increases magic attack by 15%"
+      }
+    ]
+  },
+  {
+    "id": 23,
+    "name": "Magic Stoneplate Ring",
+    "rank": 0,
+    "weight": 0.6,
+    "effects": [
+      {
+        "alters": "magic",
+        "alter_value": 0.87,
+        "alter_method": "multiply",
+        "description": "Increases magic absorption by 13%"
+      }
+    ]
+  },
+  {
+    "id": 24,
+    "name": "Magic Stoneplate Ring",
+    "rank": 1,
+    "weight": 0.6,
+    "effects": [
+      {
+        "alters": "magic",
+        "alter_value": 0.83,
+        "alter_method": "multiply",
+        "description": "Increases magic absorption by 17%"
+      }
+    ]
+  },
+  {
+    "id": 25,
+    "name": "Magic Stoneplate Ring",
+    "rank": 2,
+    "weight": 0.6,
+    "effects": [
+      {
+        "alters": "magic",
+        "alter_value": 0.8,
+        "alter_method": "multiply",
+        "description": "Increases magic absorption by 20%"
+      }
+    ]
+  },
+  {
+    "id": 61,
+    "name": "Morne's Ring",
+    "rank": 0,
+    "weight": 0.7,
+    "effects": [
+      {
+        "alters": "",
+        "alter_value": 0,
+        "alter_method": "",
+        "description": "Boosts miracle damage by 12%"
+      }
+    ]
+  },
+  {
+    "id": 100,
+    "name": "Obscuring Ring",
+    "rank": 0,
+    "weight": 0.9,
+    "effects": [
+      {
+        "alters": "",
+        "alter_value": 0,
+        "alter_method": "",
+        "description": "Harder to be detected by enemies"
+      }
+    ]
+  },
+  {
+    "id": 39,
+    "name": "Poisonbite Ring",
+    "rank": 0,
+    "weight": 0.6,
+    "effects": [
+      {
+        "alters": "poison",
+        "alter_value": 90,
+        "alter_method": "add",
+        "description": "Increases poison resistance by 90 points"
+      }
+    ]
+  },
+  {
+    "id": 40,
+    "name": "Poisonbite Ring",
+    "rank": 1,
+    "weight": 0.6,
+    "effects": [
+      {
+        "alters": "poison",
+        "alter_value": 140,
+        "alter_method": "add",
+        "description": "Increases poison resistance by 140 points"
+      }
+    ]
+  },
+  {
+    "id": 97,
+    "name": "Pontiff's Left Eye",
+    "rank": 0,
+    "weight": 0.9,
+    "effects": [
+      {
+        "alters": "",
+        "alter_value": 0,
+        "alter_method": "",
+        "description": "Restores HP after successive attacks"
+      }
+    ]
+  },
+  {
+    "id": 96,
+    "name": "Pontiff's Right Eye",
+    "rank": 0,
+    "weight": 1.4,
+    "effects": [
+      {
+        "alters": "",
+        "alter_value": 0,
+        "alter_method": "",
+        "description": "Boosts attacks while attacking persists"
+      }
+    ]
+  },
+  {
+    "id": 47,
+    "name": "Priestess Ring",
+    "rank": 0,
+    "weight": 0.6,
+    "effects": [
+      {
+        "alters": "faith",
+        "alter_value": 5,
+        "alter_method": "add",
+        "description": "Increases Faith by 5 points"
+      }
+    ]
+  },
+  {
+    "id": 19,
+    "name": "Prisoner's Chain",
+    "rank": 0,
+    "weight": 0.8,
+    "effects": [
+      {
+        "alters": "special",
+        "alter_value": 0,
+        "alter_method": "",
+        "description": "Reduces absorption by 4%"
+      },
+      {
+        "alters": "vigor",
+        "alter_value": 5,
+        "alter_method": "add",
+        "description": "Increases Vigor by 5 points"
+      },
+      {
+        "alters": "endurance",
+        "alter_value": 5,
+        "alter_method": "add",
+        "description": "Increases Endurance by 5 points"
+      },
+      {
+        "alters": "vitality",
+        "alter_value": 5,
+        "alter_method": "add",
+        "description": "Increases Vitality by 5 points"
+      }
+    ]
+  },
+  {
+    "id": 90,
+    "name": "Red Tearstone Ring",
+    "rank": 0,
+    "weight": 1.4,
+    "effects": [
+      {
+        "alters": "",
+        "alter_value": 0,
+        "alter_method": "",
+        "description": "Increases attack by 20% when HP is below 20%"
+      }
+    ]
+  },
+  {
+    "id": 103,
+    "name": "Reversal Ring",
+    "rank": 0,
+    "weight": 0.5,
+    "effects": [
+      {
+        "alters": "",
+        "alter_value": 0,
+        "alter_method": "",
+        "description": "Causes males to perform female actions, and vice-versa"
+      }
+    ]
+  },
+  {
+    "id": 16,
+    "name": "Ring of Favor",
+    "rank": 0,
+    "weight": 1.5,
+    "effects": [
+      {
+        "alters": "hp",
+        "alter_value": 1.03,
+        "alter_method": "multiply",
+        "description": "Increases max HP by 3%"
+      },
+      {
+        "alters": "stamina",
+        "alter_value": 1.085,
+        "alter_method": "multiply",
+        "description": "Increases stamina by 10.85%"
+      },
+      {
+        "alters": "equip",
+        "alter_value": 1.05,
+        "alter_method": "multiply",
+        "description": "Increases equip by 5%"
+      }
+    ]
+  },
+  {
+    "id": 17,
+    "name": "Ring of Favor",
+    "rank": 1,
+    "weight": 1.5,
+    "effects": [
+      {
+        "alters": "hp",
+        "alter_value": 1.045,
+        "alter_method": "multiply",
+        "description": "Increases max HP by 4.5%"
+      },
+      {
+        "alters": "stamina",
+        "alter_value": 1.095,
+        "alter_method": "multiply",
+        "description": "Increases stamina by 10.95%"
+      },
+      {
+        "alters": "equip",
+        "alter_value": 1.06,
+        "alter_method": "multiply",
+        "description": "Increases equip by 6%"
+      }
+    ]
+  },
+  {
+    "id": 18,
+    "name": "Ring of Favor",
+    "rank": 2,
+    "weight": 1.5,
+    "effects": [
+      {
+        "alters": "hp",
+        "alter_value": 1.05,
+        "alter_method": "multiply",
+        "description": "Increases max HP by 5%"
+      },
+      {
+        "alters": "stamina",
+        "alter_value": 1.105,
+        "alter_method": "multiply",
+        "description": "Increases stamina by 11.05%"
+      },
+      {
+        "alters": "equip",
+        "alter_value": 1.07,
+        "alter_method": "multiply",
+        "description": "Increases equip by 7%"
+      }
+    ]
+  },
+  {
+    "id": 113,
+    "name": "Ring of Favor",
+    "rank": 3,
+    "weight": 1.5,
+    "effects": [
+      {
+        "alters": "hp",
+        "alter_value": 1.06,
+        "alter_method": "multiply",
+        "description": "Increases max HP by 6%"
+      },
+      {
+        "alters": "stamina",
+        "alter_value": 1.1125,
+        "alter_method": "multiply",
+        "description": "Increases stamina by 11.125%"
+      },
+      {
+        "alters": "equip",
+        "alter_value": 1.08,
+        "alter_method": "multiply",
+        "description": "Increases equip by 8%"
+      }
+    ]
+  },
+  {
+    "id": 106,
+    "name": "Ring of Sacrifice",
+    "rank": 0,
+    "weight": 1,
+    "effects": [
+      {
+        "alters": "",
+        "alter_value": 0,
+        "alter_method": "",
+        "description": "Lose nothing upon death"
+      }
+    ]
+  },
+  {
+    "id": 20,
+    "name": "Ring of Steel Protection",
+    "rank": 0,
+    "weight": 0.8,
+    "effects": [
+      {
+        "alters": "physical",
+        "alter_value": 0.9,
+        "alter_method": "multiply",
+        "description": "Decreases physical damage by 10%"
+      }
+    ]
+  },
+  {
+    "id": 21,
+    "name": "Ring of Steel Protection",
+    "rank": 1,
+    "weight": 0.8,
+    "effects": [
+      {
+        "alters": "physical",
+        "alter_value": 0.87,
+        "alter_method": "multiply",
+        "description": "Decreases physical damage by 13%"
+      }
+    ]
+  },
+  {
+    "id": 22,
+    "name": "Ring of Steel Protection",
+    "rank": 2,
+    "weight": 0.8,
+    "effects": [
+      {
+        "alters": "physical",
+        "alter_value": 0.85,
+        "alter_method": "multiply",
+        "description": "Decreases physical damage by 15%"
+      }
+    ]
+  },
+  {
+    "id": 111,
+    "name": "Ring of Steel Protection",
+    "rank": 3,
+    "weight": 0.8,
+    "effects": [
+      {
+        "alters": "physical",
+        "alter_value": 0.83,
+        "alter_method": "multiply",
+        "description": "Decreases physical damage by 17%"
+      }
+    ]
+  },
+  {
+    "id": 76,
+    "name": "Ring of the Evil Eye",
+    "rank": 0,
+    "weight": 1,
+    "effects": [
+      {
+        "alters": "",
+        "alter_value": 0,
+        "alter_method": "",
+        "description": "Absorb +30 HP from defeated foes"
+      }
+    ]
+  },
+  {
+    "id": 77,
+    "name": "Ring of the Evil Eye",
+    "rank": 1,
+    "weight": 1,
+    "effects": [
+      {
+        "alters": "",
+        "alter_value": 0,
+        "alter_method": "",
+        "description": "Absorb +30 HP from defeated foes"
+      }
+    ]
+  },
+  {
+    "id": 78,
+    "name": "Ring of the Evil Eye",
+    "rank": 2,
+    "weight": 1,
+    "effects": [
+      {
+        "alters": "",
+        "alter_value": 0,
+        "alter_method": "",
+        "description": "Absorb +30 HP from defeated foes"
+      }
+    ]
+  },
+  {
+    "id": 117,
+    "name": "Ring of the Evil Eye",
+    "rank": 3,
+    "weight": 1,
+    "effects": [
+      {
+        "alters": "",
+        "alter_value": 0,
+        "alter_method": "",
+        "description": "Absorb +37 HP from defeated foes"
+      }
+    ]
+  },
+  {
+    "id": 62,
+    "name": "Ring of the Sun's First Born",
+    "rank": 0,
+    "weight": 1,
+    "effects": [
+      {
+        "alters": "",
+        "alter_value": 0,
+        "alter_method": "",
+        "description": "Boots miracle damage by 20%"
+      }
+    ]
+  },
+  {
+    "id": 67,
+    "name": "Sage Ring",
+    "rank": 0,
+    "weight": 0.7,
+    "effects": [
+      {
+        "alters": "",
+        "alter_value": 0,
+        "alter_method": "",
+        "description": "Shortens spell casting time"
+      }
+    ]
+  },
+  {
+    "id": 107,
+    "name": "Sage Ring",
+    "rank": 1,
+    "weight": 0.7,
+    "effects": [
+      {
+        "alters": "",
+        "alter_value": 0,
+        "alter_method": "",
+        "description": "Shortens spell casting time"
+      }
+    ]
+  },
+  {
+    "id": 108,
+    "name": "Sage Ring",
+    "rank": 2,
+    "weight": 0.7,
+    "effects": [
+      {
+        "alters": "",
+        "alter_value": 0,
+        "alter_method": "",
+        "description": "Shortens spell casting time"
+      }
+    ]
+  },
+  {
+    "id": 54,
+    "name": "Saint's Ring",
+    "rank": 0,
+    "weight": 0.5,
+    "effects": [
+      {
+        "alters": "slots",
+        "alter_value": 1,
+        "alter_method": "add",
+        "description": "+1 Attunement Slot"
+      }
+    ]
+  },
+  {
+    "id": 46,
+    "name": "Scholar Ring",
+    "rank": 0,
+    "weight": 0.6,
+    "effects": [
+      {
+        "alters": "intelligence",
+        "alter_value": 5,
+        "alter_method": "add",
+        "description": "Increases Intelligence by 5 points"
+      }
+    ]
+  },
+  {
+    "id": 98,
+    "name": "Silvercat Ring",
+    "rank": 0,
+    "weight": 0.6,
+    "effects": [
+      {
+        "alters": "",
+        "alter_value": 0,
+        "alter_method": "",
+        "description": "Removes fall damage"
+      }
+    ]
+  },
+  {
+    "id": 104,
+    "name": "Skull Ring",
+    "rank": 0,
+    "weight": 0.6,
+    "effects": [
+      {
+        "alters": "",
+        "alter_value": 0,
+        "alter_method": "",
+        "description": "Easier to be detected by enemies"
+      }
+    ]
+  },
+  {
+    "id": 99,
+    "name": "Slumbering Dragoncrest Ring",
+    "rank": 0,
+    "weight": 0.7,
+    "effects": [
+      {
+        "alters": "",
+        "alter_value": 0,
+        "alter_method": "",
+        "description": "Masks the sound of its wearer"
+      }
+    ]
+  },
+  {
+    "id": 35,
+    "name": "Speckled Stoneplate Ring",
+    "rank": 0,
+    "weight": 0.9,
+    "effects": [
+      {
+        "alters": "magic",
+        "alter_value": 0.95,
+        "alter_method": "multiply",
+        "description": "Increases magic abs. by 5%"
+      },
+      {
+        "alters": "fire",
+        "alter_value": 0.95,
+        "alter_method": "multiply",
+        "description": "Increases fire abs. by 5%"
+      },
+      {
+        "alters": "lightning",
+        "alter_value": 0.95,
+        "alter_method": "multiply",
+        "description": "Increases lightning abs. by 5%"
+      },
+      {
+        "alters": "dark",
+        "alter_value": 0.95,
+        "alter_method": "multiply",
+        "description": "Increases dark abs. by 5%"
+      }
+    ]
+  },
+  {
+    "id": 36,
+    "name": "Speckled Stoneplate Ring",
+    "rank": 1,
+    "weight": 0.9,
+    "effects": [
+      {
+        "alters": "magic",
+        "alter_value": 0.93,
+        "alter_method": "multiply",
+        "description": "Increases magic abs. by 7%"
+      },
+      {
+        "alters": "fire",
+        "alter_value": 0.93,
+        "alter_method": "multiply",
+        "description": "Increases fire abs. by 7%"
+      },
+      {
+        "alters": "lightning",
+        "alter_value": 0.93,
+        "alter_method": "multiply",
+        "description": "Increases lightning abs. by 7%"
+      },
+      {
+        "alters": "dark",
+        "alter_value": 0.93,
+        "alter_method": "multiply",
+        "description": "Increases dark abs. by 7%"
+      }
+    ]
+  },
+  {
+    "id": 8,
+    "name": "Sun Princess Ring",
+    "rank": 0,
+    "weight": 0.6,
+    "effects": [
+      {
+        "alters": "",
+        "alter_value": 0,
+        "alter_method": "",
+        "description": "Restores 2 HP per second"
+      }
+    ]
+  },
+  {
+    "id": 29,
+    "name": "Thunder Stoneplate Ring",
+    "rank": 0,
+    "weight": 0.6,
+    "effects": [
+      {
+        "alters": "lightning",
+        "alter_value": 0.87,
+        "alter_method": "multiply",
+        "description": "Increases lightning absorption by 13%"
+      }
+    ]
+  },
+  {
+    "id": 30,
+    "name": "Thunder Stoneplate Ring",
+    "rank": 1,
+    "weight": 0.6,
+    "effects": [
+      {
+        "alters": "lightning",
+        "alter_value": 0.83,
+        "alter_method": "multiply",
+        "description": "Increases lightning absorption by 17%"
+      }
+    ]
+  },
+  {
+    "id": 31,
+    "name": "Thunder Stoneplate Ring",
+    "rank": 2,
+    "weight": 0.6,
+    "effects": [
+      {
+        "alters": "lightning",
+        "alter_value": 0.8,
+        "alter_method": "multiply",
+        "description": "Increases lightning absorption by 20%"
+      }
+    ]
+  },
+  {
+    "id": 101,
+    "name": "Untrue Dark Ring",
+    "rank": 0,
+    "weight": 0.7,
+    "effects": [
+      {
+        "alters": "",
+        "alter_value": 0,
+        "alter_method": "",
+        "description": "Retain human appearance while hollowed"
+      }
+    ]
+  },
+  {
+    "id": 102,
+    "name": "Untrue White Ring",
+    "rank": 0,
+    "weight": 0.7,
+    "effects": [
+      {
+        "alters": "",
+        "alter_value": 0,
+        "alter_method": "",
+        "description": "Take the appearance of a phantom"
+      }
+    ]
+  },
+  {
+    "id": 60,
+    "name": "Witch's Ring",
+    "rank": 0,
+    "weight": 1,
+    "effects": [
+      {
+        "alters": "",
+        "alter_value": 0,
+        "alter_method": "",
+        "description": "Boosts pyromancy damage by 20%"
+      }
+    ]
+  },
+  {
+    "id": 70,
+    "name": "Wolf Ring",
+    "rank": 0,
+    "weight": 0.5,
+    "effects": [
+      {
+        "alters": "poise",
+        "alter_value": 4,
+        "alter_method": "add",
+        "description": "Increases poise by 4"
+      }
+    ]
+  },
+  {
+    "id": 71,
+    "name": "Wolf Ring",
+    "rank": 1,
+    "weight": 0.5,
+    "effects": [
+      {
+        "alters": "poise",
+        "alter_value": 6,
+        "alter_method": "add",
+        "description": "Increases poise by 6"
+      }
+    ]
+  },
+  {
+    "id": 72,
+    "name": "Wolf Ring",
+    "rank": 2,
+    "weight": 0.5,
+    "effects": [
+      {
+        "alters": "poise",
+        "alter_value": 8,
+        "alter_method": "add",
+        "description": "Increases poise by 8"
+      }
+    ]
+  },
+  {
+    "id": 112,
+    "name": "Wolf Ring",
+    "rank": 3,
+    "weight": 0.5,
+    "effects": [
+      {
+        "alters": "poise",
+        "alter_value": 9,
+        "alter_method": "add",
+        "description": "Increases poise by 9"
+      }
+    ]
+  },
+  {
+    "id": 82,
+    "name": "Wood Grain Ring",
+    "rank": 0,
+    "weight": 0.5,
+    "effects": [
+      {
+        "alters": "",
+        "alter_value": 0,
+        "alter_method": "",
+        "description": "Increases weapon durability by 20%"
+      }
+    ]
+  },
+  {
+    "id": 83,
+    "name": "Wood Grain Ring",
+    "rank": 1,
+    "weight": 0.5,
+    "effects": [
+      {
+        "alters": "",
+        "alter_value": 0,
+        "alter_method": "",
+        "description": "Increases weapon durability by 30%"
+      }
+    ]
+  },
+  {
+    "id": 84,
+    "name": "Wood Grain Ring",
+    "rank": 2,
+    "weight": 0.5,
+    "effects": [
+      {
+        "alters": "",
+        "alter_value": 0,
+        "alter_method": "",
+        "description": "Increases weapon durability by 40%"
+      }
+    ]
+  },
+  {
+    "id": 57,
+    "name": "Young Dragon Ring",
+    "rank": 0,
+    "weight": 0.7,
+    "effects": [
+      {
+        "alters": "",
+        "alter_value": 0,
+        "alter_method": "",
+        "description": "Boosts sorcery damage by 12%"
+      }
+    ]
+  }
+]
